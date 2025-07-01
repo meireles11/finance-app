@@ -30,8 +30,12 @@ Users can register, log in, quote real stock prices, buy and sell shares, and vi
 
 ## 💾 Getting Started
 
-### Clone the repo
+### Clone the repository and run the app locally:
 
 ```bash
 git clone https://github.com/meireles11/finance-app.git
 cd finance-app
+python3 -m venv venv
+source venv/bin/activate     # (On Windows: venv\Scripts\activate)
+pip install -r requirements.txt
+flask run
