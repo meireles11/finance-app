@@ -30,7 +30,7 @@ Users can register, log in, quote real stock prices, buy and sell shares, and vi
 
 ## 💾 Getting Started
 
-### 1. Clone the repo
+### Clone the repo
 
 ```bash
 git clone https://github.com/meireles11/finance-app.git
