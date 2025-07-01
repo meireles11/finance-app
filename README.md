@@ -24,10 +24,7 @@ Users can register, log in, quote real stock prices, buy and sell shares, and vi
 - Python + Flask
 - HTML, CSS, Jinja Templates
 - SQLite
-- CS50's SQL library
 - Flask-Session
-- Bootstrap (if used)
-- Lookup API (included in `helpers.py`)
 
 ---
 
