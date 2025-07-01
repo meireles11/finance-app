@@ -1,0 +1,45 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    History
+{% endblock %}
+
+{% block main %}
+    <div class="container mt-4">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card shadow-lg">
+                    <div class="card-header bg-primary text-white text-center">
+                        <h3>Transactions</h3>
+                    </div>
+                    <div class="card-body text-center">
+                        <table class="table table-bordered table-striped">
+                            <thead class="table-dark">
+                                <tr>
+                                    <th>Type</th>
+                                    <th>Symbol</th>
+                                    <th>Name</th>
+                                    <th>Price per Share</th>
+                                    <th>Shares</th>
+                                    <th>Time</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% for stock in stocks %}
+                                <tr>
+                                    <td>{{ stock.type }}</td>
+                                    <td>{{ stock.symbol }}</td>
+                                    <td>{{ stock.name }}</td>
+                                    <td>{{ stock.price_per_share }}</td>
+                                    <td>{{ stock.shares  }}</td>
+                                    <td>{{ stock.timestamp  }}</td>
+                                </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
