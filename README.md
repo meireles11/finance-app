@@ -1,7 +1,7 @@
 # 💰 Stock Portfolio Web App
 
 This is a Flask-based web application that simulates a stock trading platform.  
-Originally developed as part of Harvard's [CS50x](https://cs50.harvard.edu/x/) course — Week 9: Flask.  
+Originally developed as part of Harvard's [CS50x](https://cs50.harvard.edu/x/) course.  
 Users can register, log in, quote real stock prices, buy and sell shares, and view their portfolio and transaction history.
 
 ---
